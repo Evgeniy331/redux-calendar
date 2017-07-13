@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+}
+
+#login-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+	background: white;
+    width: 40%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    position: relative;
+    color: #333;
+    border-radius: 10px;
+}
+
+header {
+	background: #6E9ECF;
+    padding: 30px 20px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+}
+
+form label {
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+input {
+	display: block;
+    width: 78%;
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-size: 1em;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+#login-page form button {
+	position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+#application {
+    height: 100%;
+    width: 100%;
+}

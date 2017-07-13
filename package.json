@@ -1,0 +1,60 @@
+{
+  "name": "Event Calendar",
+  "version": "1.0.0",
+  "description": "test task (Junior Javascript Developer)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Evgeniy331"
+  },
+  "author": "Evgeniy Dubrovskiy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "babel": "^6.5.2",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-runtime": "^6.23.0",
+    "body-parser": "^1.15.2",
+    "chance": "^1.0.4",
+    "cookies": "^0.7.0",
+    "express": "^4.14.0",
+    "history": "^2.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.8.2",
+    "mongoose-type-url": "^1.0.2",
+    "multiparty": "^4.1.3",
+    "raw-loader": "^0.5.1",
+    "react": "^15.2.1",
+    "react-cookie": "^0.4.8",
+    "react-dom": "^15.2.1",
+    "react-images": "^0.5.2",
+    "react-modal": "^1.6.5",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0",
+    "style-loader": "^0.13.1",
+    "sweetalert": "^1.1.3",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "redux",
+    "mongo",
+    "event-calendar",
+    "react",
+    "test-task"
+  ]
+}

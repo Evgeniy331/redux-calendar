@@ -18,6 +18,6 @@ To generate initial data for database you need to use this command in the folder
 
 And last step, run this command to run the project:
 
-``` npm start ``
+``` npm start ```
 
-You can see the list of available users in the file ``` ./backend/seed/seedCollections.js ``
+You can see the list of available users in the file ``` ./backend/seed/seedCollections.js ```

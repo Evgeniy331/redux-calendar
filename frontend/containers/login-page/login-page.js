@@ -87,7 +87,6 @@ class LoginPage extends Component {
 
 }
 
-
 function mapDispatchToProps(dispatch) {
     return bindActionCreators(actions, dispatch);
 }

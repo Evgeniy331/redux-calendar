@@ -258,19 +258,14 @@ class EventCalendar extends Component {
 
 	componentWillMount() {
 		
-		console.log("componentWillMount EVENT");
 		const userID = cookie.load("current-user-id");
-		var self = this;
 
-		//temporary solution
-		setTimeout(function() {
-			self.props.getEvents(userID);
+		setTimeout(() => {
+			this.props.getEvents(userID);
 		}, 100);
 	}
 
 	componentDidUpdate() {
-
-		console.log("componentDidUpdate EVENT");
 
 		const {currentEvents} = this.props.stateFromReducer;
 

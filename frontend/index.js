@@ -1,7 +1,7 @@
 import React from "react"
 import { render } from "react-dom"
-import App from "./containers/app"
-import EventCalendarApp from "./components/app"
+import App from "./components/app"
+import EventCalendarApp from "./containers/redux-calendar"
 import {IndexRoute, Route, Router, browserHistory} from "react-router";
 
 import { createStore, applyMiddleware } from "redux"

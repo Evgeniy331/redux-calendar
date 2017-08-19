@@ -11,13 +11,14 @@
     "type": "git",
     "url": "https://github.com/Evgeniy331"
   },
-  "author": "Evgeniy Dubrovskiy",
+  "author": "Eugene Dubrovsky",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.2",
     "babel": "^6.5.2",
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-polyfill": "^6.9.1",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",

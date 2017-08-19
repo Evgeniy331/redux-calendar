@@ -7,10 +7,6 @@ import EventCalendar from "./event-calendar/event-calendar";
 import cookie from "react-cookie";
 
 class EventCalendarApp extends Component {
-
-	constructor(props) {
-        super(props);
-    }
 	
 	render() {
 
@@ -39,5 +35,6 @@ function mapStateToProps(state) {
         stateFromReducer: state
     };
 }
+
 const  EventCalendarAppConected = connect(mapStateToProps, mapDispatchToProps)(EventCalendarApp);
 export default  EventCalendarAppConected;

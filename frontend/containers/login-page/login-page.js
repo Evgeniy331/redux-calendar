@@ -8,11 +8,6 @@ import "../../common/styles/sweetalert.css";
 
 class LoginPage extends Component {
 
-    constructor(props) {
-        super(props);
-        this.authorization = this.authorization.bind(this)
-    }
-
     componentDidUpdate() {
         
         const {wrongPasswordEntered} = this.props.stateFromReducer;
@@ -48,7 +43,7 @@ class LoginPage extends Component {
         );
     }
 
-    authorization(event) {
+    authorization = (event) => {
 
       let form = document.querySelector("#sign-in-form");
       
@@ -97,4 +92,4 @@ function mapStateToProps(state) {
     };
 }
 const LoginPageConected = connect(mapStateToProps, mapDispatchToProps)(LoginPage);
-export default LoginPageConected
+export default LoginPageConected;

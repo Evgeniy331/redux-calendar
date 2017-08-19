@@ -9,14 +9,6 @@ import "../../common/styles/sweetalert.css";
 
 class EventCalendar extends Component {
 	
-	constructor(props) {
-        super(props);
-        this.logout = this.logout.bind(this);
-        this.deleteEvent = this.deleteEvent.bind(this);
-        this.addEvent = this.addEvent.bind(this);
-        this.openDeleteModal = this.openDeleteModal.bind(this);
-    }
-
 	render() {
 		
 		const { currentEvents } = this.props.stateFromReducer;
@@ -114,8 +106,8 @@ class EventCalendar extends Component {
 		var modal = document.querySelector("#add-window");
 		modal.style.display = "block";
 	}
-
-	openDeleteModal() {
+	
+	openDeleteModal = () => {
 
 		const { currentEvents } = this.props.stateFromReducer;
 
@@ -134,8 +126,8 @@ class EventCalendar extends Component {
 		modal.style.display = "block";
 	}
 
-	logout() {
-      this.props.logout();
+	logout = () => {
+	    this.props.logout();
     }
 
     isCollision(a, b) {
@@ -172,8 +164,8 @@ class EventCalendar extends Component {
 	    return true;
 	}
 
-    addEvent(event) {
-    	
+	addEvent = (event) => {
+ 	
     	let form = document.querySelector("#add-event-form");
       
 	    if (!form.checkValidity())
@@ -232,7 +224,7 @@ class EventCalendar extends Component {
 
 	}
 
-    deleteEvent() {
+    deleteEvent = () => {
     	
     	const { currentEvents } = this.props.stateFromReducer;
     	var eventID = document.querySelector("#events-titles").value;
